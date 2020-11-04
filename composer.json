@@ -14,5 +14,15 @@
             "email": "thinkfullstack@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ThinkAi\\HolaWorld\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ThinkAi\\Test\\" : "tests/TestCase"
+        }
+    }
 }
